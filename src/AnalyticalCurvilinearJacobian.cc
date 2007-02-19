@@ -31,7 +31,7 @@ AnalyticalCurvilinearJacobian::computeFullJacobian
   GlobalPoint xStart = globalParameters.position();
   GlobalVector dx = xStart - x;
   //GlobalVector h  = MagneticField::inInverseGeV(xStart);
-  GlobalVector h  = globalParameters.megneticFieldInInverseGeV(xStart);
+  GlobalVector h  = globalParameters.magneticFieldInInverseGeV(xStart);
 
   //double qbp = fts.signedInverseMomentum();
   double qbp = globalParameters.signedInverseMomentum();
