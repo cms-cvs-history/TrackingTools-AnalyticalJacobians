@@ -1,0 +1,7 @@
+<use name=DataFormats/GeometrySurface>
+<use name=TrackingTools/AnalyticalJacobians>
+<use name=TrackingTools/TrajectoryParametrization>
+<use name=boost>
+<use name=clhep>
+<bin file=Jacobian_t.cpp>
+</bin>
