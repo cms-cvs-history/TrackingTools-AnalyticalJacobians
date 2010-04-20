@@ -9,7 +9,6 @@
 <bin file=ErrorProp_t.cpp>
 <use name=TrackingTools/GeomPropagators>
 </bin>
-</bin>
 <bin file=ErrorPropOri_t.cpp>
 <use name=TrackingTools/GeomPropagators>
 </bin>
